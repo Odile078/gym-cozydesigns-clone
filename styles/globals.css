@@ -299,16 +299,71 @@
   font-display: swap;
 }
 @layer components{
+  /* Wrapper */
+  .wrapper{
+    @apply lg:px-0 max-w-1200sz flex flex-col items-center bg-transparent justify-center relative px-5 
+  }
+  
+  .wrapper--hero{
+    @apply min-h-720sz xl:max-w-1400sz
+  }
+  /* button */
+  .button{
+    @apply bg-brandAmber-dark hover:bg-brandAmber text-brandAmber-lighter px-10 py-30sz rounded-10sz uppercase font-bold flex items-center
+  }
+  .button--bg-image{
+    @apply bg-btnBgImage
+  }
+  /* Header */
   .header{
-    @apply ml-6 mr-2 flex items-center justify-center lg:justify-between
+    @apply flex pl-6 pr-2 absolute z-20 w-full items-center justify-center duration-500 transition lg:justify-between bg-headerBgImage translate-y-headerBg duration-300
+  }
+  .header--position-top{
+    @apply w-full z-20 fixed 
+  }
+  .header--position-scrolled{
+    @apply absolute
+  }
+  .header__nav{
+    @apply hidden lg:block
   }
   .header__nav-list{
     @apply flex items-center
   }
   .header__nav-item{
-    @apply py-7 px-4
+    @apply px-4 
+  }
+  .header__logo{
+    @apply w-32 h-28 py-5 px-15sz
   }
   .header__nav-link{
-    @apply font-bold font-fraunces72ptsupersoft text-brandAmber-light text-2xl;
+    @apply font-bold leading-none text-25sz transition py-7 font-fraunces72ptsupersoft ease-in-out inline-block hover:-translate-y-1 duration-300 text-brandAmber-lighter hover:text-brandAmber-light text-2xl;
   }
+  .header__menu{
+    @apply h-10 w-10 lg:hidden text-brandAmber-lighter ml-4
+  }
+  /* Hero */
+  .hero{
+    @apply overflow-hidden px-2 lg:px-6 bg-heroGradientBg flex justify-center items-center 
+  }
+  .hero__container{
+    @apply grid grid-cols-1 lg:grid-cols-2 gap-20
+  }
+  .hero__content{
+    @apply px-2 md:px-0 space-y-30sz
+  }
+  .hero__title{
+    @apply font-black py-10sz mt-20 text-6xl sm:text-80sz lg:text-90sz leading-1.1 font-fraunces144ptsupersoft text-brandAmber-light bg-brandAmber-light bg-bgNoise bg-clip-text mix-blend-exclusion
+  }
+  .hero__description{
+    @apply font-fraunces72ptsupersoft my-5 py-10sz font-semibold text-30sz sm:text-39sz lg:text-40sz text-brandAmber-lighter bg-brandAmber-lighter bg-bgNoise bg-clip-text mix-blend-exclusion
+  }
+  .hero__img-container{
+    @apply overflow-hidden -mb-60sz mt-60sz sm:mt-0 sm:mb-0 self-end -mr-10 flex justify-center
+  }
+  .hero__img{
+    @apply object-center object-contain lg:mt-56
+  }
+
+  /* Menu link */
 }

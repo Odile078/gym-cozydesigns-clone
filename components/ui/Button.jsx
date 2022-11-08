@@ -1,8 +1,8 @@
-const button = () => {
+import Link from "next/link"
+
+const button = ({url,variant, text}) => {
     return (
-        <div>
-            Enter
-        </div>
+        <Link href={url} className={"button"+variant}>{text}</Link>
     );
 }
 

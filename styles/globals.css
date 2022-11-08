@@ -337,7 +337,7 @@
     @apply w-32 h-28 py-5 px-15sz
   }
   .header__nav-link{
-    @apply font-bold leading-none text-25sz transition py-7 font-fraunces72ptsupersoft ease-in-out inline-block hover:-translate-y-1 duration-300 text-brandAmber-lighter hover:text-brandAmber-light text-2xl;
+    @apply inline-block text-2xl font-bold leading-none transition duration-300 ease-in-out text-25sz py-7 font-fraunces72ptsupersoft hover:-translate-y-1 text-brandAmber-lighter hover:text-brandAmber-light;
   }
   .header__menu{
     @apply h-10 w-10 lg:hidden text-brandAmber-lighter ml-4
@@ -364,6 +364,19 @@
   .hero__img{
     @apply object-center object-contain lg:mt-56
   }
-
+  /* GetCozy */
+  .get-cozy{
+    @apply text-brandAmber-lighter px-2 py-20 md:py-104sz lg:px-6 lg:py-140sz bg-cover bg-no-repeat bg-cozyBgImage 
+  }
+  .get-cozy__container{
+    @apply flex flex-col lg:flex-row
+  }
+  .get-cozy__content{
+    @apply flex-1
+  }
+  .get-cozy__company-list{
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-y-10
+  }
+  
   /* Menu link */
 }

@@ -20,6 +20,8 @@ module.exports = {
         '18sz':'1.125rem',//18px
         '30sz':'1.875rem',//30px
         '60sz':'3.75rem',//60px
+        '104sz':'6.5rem',//104px
+        '140sz':'8.75rem',//140px
       }
       ,
       fontFamily:{
@@ -51,6 +53,7 @@ module.exports = {
         btnBgImage:"url('/images/noise10.webp')",
         bgNoise:"url('/images/noise10.webp')",
         heroGradientBg:"linear-gradient(90deg,#302f39,#223240)",
+        cozyBgImage:"url(/images/noise10.webp),-webkit-gradient(linear,left top,left bottom,from(rgba(213,173,143,.3)),to(rgba(213,173,143,.3))),url(/svgs/stacked-waves-haikei.svg)",
       },
       borderRadius:{
         '10sz':'0.625rem',//10px

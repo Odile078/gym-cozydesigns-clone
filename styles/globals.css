@@ -366,17 +366,125 @@
   }
   /* GetCozy */
   .get-cozy{
-    @apply text-brandAmber-lighter px-2 py-20 md:py-104sz lg:px-6 lg:py-140sz bg-cover bg-no-repeat bg-cozyBgImage 
+    @apply flex items-center justify-center px-2 py-20 bg-0 bg-50 bg-brandAmber-lighter md:py-104sz lg:px-6 lg:py-140sz bg-cozyBgImage ;
+    background-position-x: 0px, 0px, 0px;
+    background-position-y: 0px, 0px, 0px;
+    /* background-size: 50px,auto,cover; */
   }
   .get-cozy__container{
-    @apply flex flex-col lg:flex-row
+    @apply flex flex-col lg:flex-row 
   }
   .get-cozy__content{
-    @apply flex-1
+    @apply flex-1 my-100sz xsm:pl-5 mlg:pl-10vw xsm:pr-5 md:pr-30sz mlg:max-w-560sz md:max-w-650sz lg:max-w-700sz xl:max-w-800sz
+  }
+  .get-cozy__heading {
+    @apply flex items-center mb-4 text-brandBlack font-geomanist leading-none text-30sz uppercase font-bold tracking-0.125
+  }
+  .get-cozy__title{
+    @apply font-semibold text-brandBlack font-fraunces72ptsupersoft text-70sz leading-1.1 mt-10 mb-10sz tracking-0.0625
+  }
+  .get-cozy__sub-title{
+    @apply text-brandAmber font-fraunces72ptsupersoft font-normal text-37sz leading-1.45 mb-5
+  }
+  .get-cozy__description{
+    @apply mb-15sz text-22sz text-brandBlack font-fraunces72ptsupersoft font-normal leading-1.6 tracking-0.0625
+  }
+  .get-cozy__companies{
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-items-center lg:self-center
   }
   .get-cozy__company-list{
-    @apply grid grid-cols-1 sm:grid-cols-2 gap-y-10
+    @apply self-center space-y-10 lg:px-5 flex flex-col
   }
-  
+  .get-cozy__img{
+    @apply max-w-140sz xl:max-w-140sz
+  }
+  /* Testimonials */
+  .testimonials{
+    @apply flex items-center justify-center px-2  bg-brandAmber-lighter py-5 xsm:py-20 md:py-104sz mlg:px-6 mlg:py-140sz 
+  }
+  .testimonials__intro{
+    @apply px-2 mb-10 mlg:px-15sz mlg:mb-82sz flex items-center justify-center flex-col
+  }
+  .testimonials__title{
+    @apply text-brandBlack flex font-fraunces72ptsupersoft xsm:text-61 font-semibold xsm:leading-1.06 text-2xl leading-1.33 mt-60sz mb-30sz
+  }
+  .testimonials__line-divider{
+    @apply w-10 bg-brandAmber-light mt-5 mb-6 mx-auto h-1
+  }
+  .testimonials__container{
+    @apply  w-full -mt-2 mlg:w-10/12 mlg:-mt-15sz 
+  }
+  .testimonials__row{
+    @apply relative flex justify-center items-stretch flex-wrap md:flex-nowrap
+  }
+  .testimony{
+    @apply flex w-full mb-4 md:mb-0 md:w-1/2
+  }
+  .testimony--top-left{
+    @apply justify-end items-end
+  }
+  .testimony--top-right{
+    @apply mlg:pr-10% justify-start items-end
+  }
+  .testimony--bottom-left{
+    @apply mlg:pl-10% justify-end items-start
+  }
+  .testimony--bottom-right{
+    @apply justify-start items-start
+  }
+  .testimony__container{
+    @apply m-2 mlg:m-15sz py-20 bg-bgNoise bg-50sz bg-clip-padding
+  }
+  .testimony--top-left .testimony__container{
+    @apply pl-60sz pr-10 bg-brandBlack shadow-shadow50-primary rounded-t-80% rounded-bl-100% rounded-br-none flex flex-col items-center
+  }
+  .testimony--top-right .testimony__container{
+    @apply bg-brandBlack-light pl-60sz pr-10 rounded-t-100% rounded-br-50% rounded-bl-none shadow-shadow50-secondary flex flex-col items-center
+  }
+  .testimony--bottom-right .testimony__container{
+    @apply pl-60sz pr-10 rounded-br-60% rounded-tr-100% flex flex-col items-start bg-brandAmber-dark shadow-shadowlight-secondary 
+  }
+  .testimony--bottom-left .testimony__container{
+    @apply pl-10 pr-10 rounded-b-60% rounded-tl-100% flex flex-col items-end bg-brandAmber shadow-shadowlight-primary
+  }
+  .testimony__avatar{
+    @apply border-spacing-3sz rounded-32% w-20 h-20 border-white mb-6 mix-blend-luminosity object-center object-cover 
+  }
+  .testimony__heading{
+    @apply font-fraunces72ptsupersoft font-semibold text-brandAmber-light mt-6 mb-3 leading-normal text-xl
+  }
+  .testimony__heading--position-right{
+    @apply text-right self-end
+  }
+  .testimony__heading--position-left{
+    @apply text-left self-start
+  }
+  .testimony__paragraph{
+    @apply font-fraunces72ptsupersoft font-normal text-brandAmber-lighter mb-15sz leading-1.6 text-lg
+  }
+  .testimony__paragraph--position-right{
+    @apply text-right self-end
+  }
+  .testimony__paragraph--position-left{
+    @apply text-left self-start
+  }
+  .testimony__author{
+    @apply font-geomanist uppercase font-bold text-brandAmber-lighter leading-1.33 text-xs tracking-0.25
+  }
+  .testimony__author--position-right{
+    @apply text-right self-end
+  }
+  .testimony__author--position-left{
+    @apply text-left self-start
+  }
+  .testimony__authorByline{
+    @apply font-geomanist font-normal text-brandAmber-lighter mt-5sz leading-1.33 text-xs whitespace-pre-line opacity-70
+  }
+  .testimony__authorByline--position-right{
+    @apply text-right self-end
+  }
+  .testimony__authorByline--position-left{
+    @apply text-left self-start
+  }
   /* Menu link */
 }

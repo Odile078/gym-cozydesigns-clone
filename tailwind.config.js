@@ -26,8 +26,10 @@ module.exports = {
       spacing:{
         '3sz':'0.1875rem',//3px
         '5sz':'0.3125rem',//5px
+        '9sz':'0.5625rem',//9px
         '10sz':'0.625rem',//10px
         '15sz':'0.9375rem',//15px
+        '17sz':'1.0625',//17px
         '18sz':'1.125rem',//18px
         '30sz':'1.875rem',//30px
         '60sz':'3.75rem',//60px

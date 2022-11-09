@@ -3,7 +3,7 @@ import Header from '../components/layout/Header'
 import GetCozy from '../components/sections/GetCozy'
 import Hero from '../components/sections/Hero'
 import Testimonials from '../components/sections/Testimonials'
-// import '../styles/globals.css'
+import Clients from '../components/sections/Clients'
 export default function Home() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function Home() {
       <Hero/>
       <GetCozy/>
       <Testimonials/>
+      <Clients/>
     </main>
     <Footer/>
     </>

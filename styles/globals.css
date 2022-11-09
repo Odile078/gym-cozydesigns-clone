@@ -486,5 +486,21 @@
   .testimony__authorByline--position-left{
     @apply text-left self-start
   }
+  /* Clients */
+  .clients{
+    @apply px-2 mlg:px-6 flex items-center justify-center bg-brandBlack
+  }
+  .clients__heading{
+    @apply text-center mt-16 font-fraunces72ptsupersoft text-brandAmber-light italic font-normal leading-1.1 -tracking-tight opacity-80 text-30sz
+  }
+  .clients__list{
+    @apply flex items-center flex-wrap md:flex-nowrap justify-center py-8 px-2 w-full
+  }
+  .client__item{
+    @apply mx-3 my-9sz mlg:my-17sz mlg:mx-4 py-2 px-3 w-fit
+  }
+  .client__img{
+    @apply h-8 w-fit
+  }
   /* Menu link */
 }

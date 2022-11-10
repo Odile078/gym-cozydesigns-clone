@@ -502,5 +502,78 @@
   .client__img{
     @apply h-8 w-fit
   }
+  /* Footer */
+  .footer{
+    @apply bg-brandAmber-lighter border-t border-t-brandAmber-light flex items-center justify-center px-2 mlg:px-6 pb-6 xsm:pt-10 mlg:pt-12
+  }
+  .footer__top{
+    @apply flex flex-col items-center justify-center md:flex-row md:justify-start
+  }
+  .footer__top-nav{
+    @apply flex flex-col items-center justify-center md:flex-row md:justify-between px-2
+  }
+  .footer__top-nav-list{
+    @apply flex flex-col items-center justify-center md:flex-row md:justify-between 
+  }
+  .footer__top-nav-item{
+    @apply py-1 md:mr-6 text-brandAmber-dark font-fraunces72ptsupersoft text-13sz leading-normal
+  }
+  .footer__logo{
+    @apply xsm:px-2 mlg:px-15sz w-32 h-28 
+  }
+  .footer__top-right{
+    @apply flex flex-col pb-2 gap-18sz items-center justify-center mlg:justify-end pt-10 md:pt-2
+  }
+  .footer__top-first-social{
+    @apply flex mb-10sz xsm:mb-0 ml-0 md:ml-4
+  }
+  .footer__top-first-social-img{
+    @apply w-5
+  }
+  .footer__top-first-social-name{
+    @apply ml-2 font-fraunces72ptsupersoft text-rose-700 font-normal text-13sz
+  }
+  .footer__top-socials-list{
+    @apply flex 
+  }
+  .footer__top-socials-link{
+    @apply w-6 h-6 m-3sz flex items-center justify-center rounded-sm
+  }
+  .footer__top-socials-item{
+    @apply w-3 h-3 bg-transparent
+  }
+  .footer__bottom{
+    @apply mx-2 my-5 py-4 md:my-10 md:py-6 mlg:mx-15sz border-t-2 border-t-brandAmber-light flex flex-col md:flex-row items-center md:justify-between gap-10 xsm:gap-5
+  }
+  .footer__bottom-left{
+    @apply flex flex-1 items-center gap-10 flex-col xsm:flex-row flex-wrap
+  }
+  .footer__bottom-left-logo-name{
+    @apply text-sm text-brandBlack-light text-center
+  }
+  .footer__bottom-left-img{
+    @apply max-w-140sz xl:max-w-140sz
+  }
+  .footer__logo-reviews{
+    @apply border rounded-bl-25sz rounded-tr-25sz w-213sz h-50sz object-cover object-center
+  }
+  .footer__logo-card{
+    @apply flex w-213sz h-50sz items-center gap-2
+  }
+  .footer__logo-card-img{
+    @apply w-7 h-6
+  }
+  .footer__logo-card-content{
+    @apply w-7 h-6 flex items-center
+  }
+  .footer__logo-rating{
+    @apply flex items-center
+  }
+  .footer__logo-stars{
+    @apply flex items-center
+  }
+  .footer__bottom-right{
+    @apply md:self-end flex flex-col mlg:flex-row mt-30sz xsm:mt-0 xsm:pt-10 xsm:pb-2 mlg:py-2 items-center
+  }
   /* Menu link */
 }

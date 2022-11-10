@@ -17,7 +17,7 @@ const GetCozy = () => {
                     </div>
                     <div className='get-cozy__companies '>                     
                        <div className='get-cozy__company-list'>
-                            <Link href={"/"}><Image width={500} sizes={140} height={500} srcset="/images/Clutch-Global-p-500.webp 500w, /images/Clutch-Global.webp 930w" alt='company logo' src={"/images/Clutch-Global.webp"} className="get-cozy__img" /></Link>
+                            <Link href={"/"}><Image width={500} sizes={140} height={500} srcSet="/images/Clutch-Global-p-500.webp 500w, /images/Clutch-Global.webp 930w" alt='company logo' src={"/images/Clutch-Global.webp"} className="get-cozy__img" /></Link>
                             <Link href={"/"}><Image width={400} height={320} alt="" src={"/images/ca_san-diego_user-experience_2020_transparent.webp"}className="get-cozy__img" /></Link>
                             <Link href={"/"}><Image width={180} height={320}  alt='SuperbCompanies.com "Top digital marketing agencies in 2021"' src={"/images/SuperbCompanies-Leader-Award-Digital-Marketing.webp"} className="get-cozy__img" /></Link>
                             <Link href={"/"}><Image width={300} height={300}  alt='company logo' src={"/images/Best-Web-Design-Companies-Badge-2-300x300.webp"} className="get-cozy__img" /></Link>

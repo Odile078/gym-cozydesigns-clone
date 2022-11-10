@@ -12,10 +12,9 @@ const Hero = () => {
                         <Button variant=" button--bg-image " text="See how we work & what we can do" url="/"/>
                     </div>
                     <div className="hero__img-container">
-                        <Image sizes="(max-width: 479px) 100vw, (max-width: 767px) 93vw, (max-width: 991px) 79vw, (max-width: 1279px) 63vw, 58vw" srcset="/images/getcozy-p-500.png 500w, /images/getcozy-p-800.png 800w, /images/getcozy.png 1000w" src="/images/getcozy.png" alt="" class="hero__img" width={846} height={861}></Image>
+                        <Image sizes="(max-width: 479px) 100vw, (max-width: 767px) 93vw, (max-width: 991px) 79vw, (max-width: 1279px) 63vw, 58vw" srcSet="/images/getcozy-p-500.png 500w, /images/getcozy-p-800.png 800w, /images/getcozy.png 1000w" src="/images/getcozy.png" alt="" className="hero__img" width={846} height={861}></Image>
                     </div>
                 </div>
-
             </Wrapper>
         </div>
     );

@@ -47,6 +47,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                <div className="footer__bottom"></div>
                
             </Wrapper>
         </div>
